@@ -1,0 +1,116 @@
+@import "null.css";
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:regular,700,900&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Rowdies:regular,700&display=swap);
+
+body{
+    line-height: 1.5;
+}
+.wrapper{
+    overflow: visible;
+    min-height: 100%;
+}
+h1{
+    font-family: "Playfair Display", Arial, Helvetica, sans-serif ;
+    font-weight: 900;
+    font-size: 35px;
+    text-align: center;
+}
+h2{
+    font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    padding: 15px 0px;
+    text-align: center;
+}
+span{
+    font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-family: serif;
+    font-size: 24px;
+}
+a{
+    font-family: Rowdies, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-decoration: underline;
+    color: rgb(235, 12, 12);
+    font-size: 20px;
+}
+.first-list span{
+    display: block;
+    text-align: center;
+}
+
+p{
+    font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+    font-weight: regular;
+    font-size: 16px;
+}
+img{
+    min-width: 550px;
+    padding-bottom: 15px;
+    padding: 0px 0px 15px 15px;
+}
+.first-city{
+    max-height: 500px;
+    width: 70%;
+    overflow: scroll;
+}
+.first-list a{
+    color: blue;
+}
+li{
+    display: inline;
+}
+.moo{
+    display: inline;
+}
+.bride {
+    display: inline;
+    width: 400px;
+} 
+.legend{
+    display: inline-block;
+    width: 540px;
+    margin: 0 0 0 auto;
+    margin-left: 15px;
+}
+.legend img {
+    height: 545px;
+    padding-bottom: 0px;
+}
+.list {
+    color: blue;
+    font-size: 20px;
+}
+.list a{
+    color: rgb(205, 42, 42);
+}
+.one {
+    padding:0 0 0 20px;
+}
+.two {
+    padding: 0 0 0 40px;
+}
+.three {
+    padding: 0 0 0 60px;
+}
+.four {
+    padding: 0 0 0 80px;
+}
+.five {
+    padding: 0 0 0 100px;
+}
+.one-para{
+    display: inline-block;
+    max-width: 450px;
+    height: 150px;
+    overflow: scroll;
+}
+.two-para{
+    display: inline-block;
+    max-width: 450px;
+    padding: 0px 50px ;
+    height: 150px;
+    overflow: auto;
+}
